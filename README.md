@@ -9,7 +9,7 @@ curl https://get.pimoroni.com/envirophat | bash
 sudo reboot -h now
 
 # Clone the repository 
-git clone git@github.com:cy6or9/Envirophat-Pi-Imperial.git
+git clone https://github.com/cy6or9/Envirophat-Pi-Imperial.git
 
 # Enjoy! ;p
 cd /Envirophat-Pi-Imperial
