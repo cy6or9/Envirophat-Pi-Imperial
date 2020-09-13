@@ -1,6 +1,11 @@
 # Envirophat-Pi-US
 Pimoroni's EnviroPhat program to display compass, temperature and pressure. Converted to show degrees in Fahrenheit (F) and barometric pressure in Inch of mercury (InHg). 
 
+# What you'll need
+Any Raspberry Pi with Raspbian or RaspOS already installed
+
+Pimoroni's Envirophat. In my expereince I used a solderless 40 gpio header and a fan (since I didn't have a heatsink). When it was directly soldered to the board, the pi's heat was causing the temp to run high.
+
 # Install Envirophat and reboot
 sudo apt update && sudo apt full-upgrade -y
 
