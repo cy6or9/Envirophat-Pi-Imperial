@@ -16,3 +16,4 @@ cd /Envirophat-Pi-US
 
 python enviropi.py
 
+-- tested on a pi zero w 
