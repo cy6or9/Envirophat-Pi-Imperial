@@ -16,10 +16,10 @@ Press Ctrl+C to exit.
 """)
 
 threshold = None
-north = motion.heading()
 
 try:
     while True:
+        north = motion.heading()        
         corr_heading = (motion.heading() - north) % 360
         temperature = weather.temperature()
         fahrenheit = (temperature * 9/5) + 32
