@@ -16,6 +16,9 @@ sudo reboot -h now
 # Clone the repository 
 git clone https://github.com/cy6or9/Envirophat-Pi-US.git
 
+# Find North
+Make sure to point your pi setup North before launching enviropi.py, otherwise your compass will be wrong. The compass depends on your setup to be in a resting position and when enviropy starts it takes a reading of your position and automatically calibrates to North up.
+
 # Enjoy! ;p
 cd /Envirophat-Pi-US
 
